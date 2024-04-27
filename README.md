@@ -9,8 +9,6 @@
 <br>
 [Chatbot Environment](https://github.com/sourceduty/Chatbot_Environment)
 <br>
-[Trading Bot Simulator](https://chat.openai.com/g/g-OCgWKt0lF-trading-bot-simulator)
-<br>
 [Artificial Group Chat](https://github.com/sourceduty/Artificial_Group_Chat)
 
 ***
