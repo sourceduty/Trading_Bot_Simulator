@@ -1,0 +1,65 @@
+
+Scenario Setup
+
+1. Stock: ABC Corp
+2. Current Price: $100 per share
+3. Buyer Bot:
+   - Strategy: Moving Average Crossover
+   - Criteria: Buy when the short-term moving average (SMA 5) crosses above the long-term moving average (SMA 20).
+   - Budget: $10,000
+
+4. Seller Bot:
+   - Strategy: Relative Strength Index (RSI)
+   - Criteria: Sell when RSI is above 70 (indicating the stock is overbought).
+   - Shares Owned: 200 shares
+
+Step-by-Step Simulation
+
+Step 1: Market Data Analysis
+
+The bots analyze the latest market data to make their decisions.
+
+- Buyer Bot Analysis:
+  - SMA 5 (Short-Term Moving Average): $98
+  - SMA 20 (Long-Term Moving Average): $100
+  - Decision: No action (SMA 5 is below SMA 20).
+
+- Seller Bot Analysis:
+  - RSI: 72
+  - Decision: Sell (RSI is above 70).
+
+Step 2: Order Placement
+
+Since the Buyer Bot decides not to take any action, it does not place an order. However, the Seller Bot decides to place a sell order.
+
+- Seller Bot:
+  - Sell Order: 100 shares at $100 each.
+
+Step 3: Order Execution
+
+The market processes the sell order. For the sake of this simulation, we'll assume there's a willing buyer in the market (not the Buyer Bot since it didn't place a buy order).
+
+- Executed Trade:
+  - Sold: 100 shares of ABC Corp
+  - Price: $100 per share
+  - Total: $10,000
+
+Step 4: Update Positions
+
+- Seller Bot:
+  - Remaining Shares: 100 shares
+  - Cash: $10,000 from the sale.
+
+- Buyer Bot:
+  - No change in position (still has a $10,000 budget).
+
+Summary
+
+- Buyer Bot:
+  - Strategy: Moving Average Crossover (did not execute a trade as conditions were not met).
+  - Current Budget: $10,000
+
+- Seller Bot:
+  - Strategy: RSI (executed a trade as conditions were met).
+  - Current Shares: 100 shares of ABC Corp
+  - Current Cash: $10,000
