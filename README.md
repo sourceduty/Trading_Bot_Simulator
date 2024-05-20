@@ -5,7 +5,7 @@
 #
 ### Example Usage
 
-[exmaple_simulation_summary.txt](https://github.com/sourceduty/Trading_Bot_Simulator/files/15381852/exmaple_simulation_summary.txt)
+[example_simulation_summary.txt](https://github.com/sourceduty/Trading_Bot_Simulator/files/15381855/example_simulation_summary.txt)
 
 #
 ### Relates Links
