@@ -3,6 +3,11 @@
 [Trading Bot Simulator](https://chat.openai.com/g/g-OCgWKt0lF-trading-bot-simulator) is a specialized tool designed to simulate trading scenarios between virtual chatbots. This tool helps users understand and explore the functionalities of trading bots that are used in different markets such as stocks, forex, and cryptocurrencies. Through an interactive process, it guides users in selecting trading strategies, setting up trading parameters, and executing simulated trades. This simulation is beneficial for illustrating how real trading bots operate, including how they analyze market data, make decisions, and execute trades quickly based on predefined criteria or algorithms.
 
 #
+### Example Usage
+
+[exmaple_simulation_summary.txt](https://github.com/sourceduty/Trading_Bot_Simulator/files/15381852/exmaple_simulation_summary.txt)
+
+#
 ### Relates Links
 
 [Chat Simulator](https://chat.openai.com/g/g-pVviDoA7V-chat-simulator)
